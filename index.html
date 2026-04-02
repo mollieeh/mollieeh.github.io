@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mollie Hamman</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <span class="nav-logo">M.H.</span>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#timeline">Timeline</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#gallery">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+
+      <div class="hero-photo">
+        <div class="photo-frame">
+          <img src="docs/photos/me.png" alt="Mollie Hamman" />
+        </div>
+      </div>
+
+      <div class="hero-text">
+        <h1 class="hero-name">Mollie<br>Hamman</h1>
+        <p class="hero-tagline">
+          Software Engineer, AI &amp; ML Track, CS Graduate
+        </p>
+        <p class="hero-desc">
+          Full-stack engineer and CS graduate from SMU with experience in
+          ML pipelines, database-driven systems, and research automation.
+          Looking for a software engineering role in New York City.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#contact" class="btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-inner">
+      <h2 class="section-title">About Me</h2>
+      <div class="title-rule"></div>
+
+      <div class="about-grid">
+        <div class="about-bio">
+          <p class="bio-text">
+            I'm Mollie, a CS graduate from SMU's Bobby B. Lyle School of Engineering, where I studied in the AI and Machine Learning track. I build full-stack systems, research automation tools, and database-driven applications, and I care deeply about writing code that actually works in production.
+          </p>
+          <p class="bio-text">
+            My background spans software internships at Nokia (SBC R&amp;D), academic research at SMU's Matthews Research Group automating molecular excitation pattern recognition, and ML projects ranging from RAG pipelines to medical image analysis.
+          </p>
+          <p class="bio-text">
+            I also come from marketing. I ran campaigns for WISE and led HackSMU VII's marketing. I think that background makes me a sharper engineer: I build with the end user in mind and I know how to communicate what I ship. Currently seeking a full-time software engineering role in New York City.
+          </p>
+        </div>
+
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-label">Degree</span>
+            <span class="stat-value">BA Computer Science, SMU</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Track</span>
+            <span class="stat-value">AI &amp; Machine Learning</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">GPA</span>
+            <span class="stat-value">3.491</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Languages</span>
+            <span class="stat-value">Python, Java, C++, JS, SQL</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Tools</span>
+            <span class="stat-value">Flask, Docker, React, Git</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Seeking</span>
+            <span class="stat-value">SWE Role in New York City</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HORIZONTAL TIMELINE -->
+  <section class="section section-tinted" id="timeline">
+    <div class="section-inner">
+      <h2 class="section-title">Timeline</h2>
+      <div class="title-rule"></div>
+      <p class="section-sub">Major moments in my career.</p>
+    </div>
+
+    <div class="timeline-scroll-wrap">
+      <div class="timeline-track">
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-year">2022</span>
+            <h3 class="tl-title">Enrolled at SMU</h3>
+            <p class="tl-desc">Began BA in Computer Science at SMU's Bobby B. Lyle School of Engineering. AI &amp; ML track.</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-year">Summer 2023</span>
+            <h3 class="tl-title">Research Intern</h3>
+            <p class="tl-desc">Interned at Baylor Scott &amp; White Research Institute. Observed cardiovascular research and assisted with patient assessments.</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-year">Fall 2024</span>
+            <h3 class="tl-title">WISE Campus Coordinator</h3>
+            <p class="tl-desc">Led event promotion and STEM education initiatives for WISE, designing marketing materials and delivering CS lessons for young girls.</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-year">Spring 2025</span>
+            <h3 class="tl-title">Matthews Research Group</h3>
+            <p class="tl-desc">Joined SMU's Matthews Research Group as a Research Assistant — automating molecular excitation pattern recognition in Python and C++.</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-year">Summer 2025</span>
+            <h3 class="tl-title">Nokia SBC R&amp;D Intern</h3>
+            <p class="tl-desc">Software development intern on Nokia's Session Border Controller team. Contributed to feature development and internal tooling with Docker.</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-year">Fall 2025</span>
+            <h3 class="tl-title">HackSMU VII Marketing Lead</h3>
+            <p class="tl-desc">Marketing Manager for HackSMU VII. Produced branded social media content and coordinated all event promotion efforts.</p>
+          </div>
+        </div>
+
+        <div class="tl-item tl-item-last">
+          <div class="tl-dot tl-dot-active"></div>
+          <div class="tl-card">
+            <span class="tl-year">Jan 2026</span>
+            <h3 class="tl-title">Graduated and NYC Bound</h3>
+            <p class="tl-desc">Graduated from SMU with a 3.491 GPA. Seeking a full-time software engineering role in New York City.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <h2 class="section-title">Projects</h2>
+      <div class="title-rule"></div>
+      <p class="section-sub">Things I've built.</p>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Full-Stack &mdash; Fall 2025</span>
+            <div class="project-links">
+              <a href="https://github.com/mollieeh" class="project-link">{ src }</a>
+            </div>
+          </div>
+          <h3 class="project-title">University Course Evaluation Dashboard</h3>
+          <p class="project-desc">
+            Full-stack academic program evaluation tool for universities. Designed a MySQL relational database schema, built a Python Flask REST API with filtering endpoints, and delivered an HTML/CSS/JS frontend, containerized with Docker. Wrote and optimized complex relational queries spanning courses, instructors, and learning objectives.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Flask</span>
+            <span class="stack-tag">MySQL</span>
+            <span class="stack-tag">Docker</span>
+            <span class="stack-tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">ML / NLP &mdash; Spring 2025</span>
+            <div class="project-links">
+              <a href="https://github.com/mollieeh" class="project-link">{ src }</a>
+            </div>
+          </div>
+          <h3 class="project-title">Retrieval-Augmented Generation (RAG) Pipeline</h3>
+          <p class="project-desc">
+            Built a RAG pipeline in Python comparing GloVe, SBERT, and OpenAI embeddings stored in a Qdrant vector database. Retrieved context chunks to ground GPT-3.5-turbo responses across 20+ federal government PDFs. Evaluated embedding quality and retrieval accuracy across all three approaches.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">OpenAI API</span>
+            <span class="stack-tag">Qdrant</span>
+            <span class="stack-tag">SBERT</span>
+            <span class="stack-tag">NLP</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">ML &mdash; Spring 2025</span>
+            <div class="project-links">
+              <a href="https://github.com/mollieeh" class="project-link">{ src }</a>
+            </div>
+          </div>
+          <h3 class="project-title">X-Ray Image Data Exploration</h3>
+          <p class="project-desc">
+            Applied feature extraction and Principal Component Analysis to X-ray image data using NumPy, Pandas, and Seaborn. Documented the full analysis pipeline in a well-structured Jupyter notebook, balancing statistical rigor with clear, readable code.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">NumPy</span>
+            <span class="stack-tag">Pandas</span>
+            <span class="stack-tag">Seaborn</span>
+            <span class="stack-tag">Jupyter</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CREATIVE WORK / GALLERY -->
+  <section class="section" id="gallery">
+    <div class="section-inner">
+      <h2 class="section-title">Creative Work</h2>
+      <div class="title-rule"></div>
+      <p class="section-sub">Marketing campaigns &amp; design highlights.</p>
+
+      <div class="gallery-grid">
+
+        <div class="gallery-card" data-index="0">
+          <div class="gallery-img-wrap">
+            <img src="docs/marketing%20pictures/WISE_detective_Sept25%20copy.png"
+                 alt="WISE Detective Event — September 2025" loading="lazy" />
+            <div class="gallery-overlay"><span>expand</span></div>
+          </div>
+          <div class="gallery-info">
+            <h3>WISE Detective Event</h3>
+            <p>September 2025 &middot; WISE @ SMU</p>
+          </div>
+        </div>
+
+        <div class="gallery-card" data-index="1">
+          <div class="gallery-img-wrap">
+            <img src="docs/marketing%20pictures/WISE_winterWiseWonderland_Dec25%20copy.png"
+                 alt="Winter Wise Wonderland — December 2025" loading="lazy" />
+            <div class="gallery-overlay"><span>expand</span></div>
+          </div>
+          <div class="gallery-info">
+            <h3>Winter Wise Wonderland</h3>
+            <p>December 2025 &middot; WISE @ SMU</p>
+          </div>
+        </div>
+
+        <div class="gallery-card" data-index="2">
+          <div class="gallery-img-wrap">
+            <img src="docs/marketing%20pictures/hacksmu_registration_announcement%20copy.png"
+                 alt="HackSMU Registration Announcement" loading="lazy" />
+            <div class="gallery-overlay"><span>expand</span></div>
+          </div>
+          <div class="gallery-info">
+            <h3>HackSMU Registration</h3>
+            <p>2024 &middot; HackSMU</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER / CONTACT -->
+  <footer class="footer" id="contact">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-cta">
+          <h2 class="footer-title">Let's work together.</h2>
+          <p class="footer-sub">
+            <!-- ✏️ Edit contact blurb -->
+            I'm always open to conversations about engineering, product, and creative work.
+          </p>
+        </div>
+        <div class="footer-links">
+          <span class="footer-contact-line"><!-- ✏️ Your email --> mhamman@smu.edu</span>
+          <a href="https://github.com/mollieeh" class="footer-link">GitHub &#x2197;</a>
+          <a href="https://www.linkedin.com/in/mollie-hamman/" class="footer-link">LinkedIn &#x2197;</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Mollie Hamman</span>
+        <span>Dallas, TX</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+    <button class="lightbox-prev"  id="lightboxPrev"  aria-label="Previous">&#8249;</button>
+    <button class="lightbox-next"  id="lightboxNext"  aria-label="Next">&#8250;</button>
+    <div class="lightbox-img-wrap">
+      <img class="lightbox-img" id="lightboxImg" src="" alt="" />
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
